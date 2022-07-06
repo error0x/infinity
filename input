@@ -1,0 +1,192 @@
+// Note: Text that comes after "//" is ignored, which allows
+// you to write notes - like the one you're reading now!
+
+title
+  Infinity Mission Generator
+antagonist_1
+  An experimental Posthuman
+  A crime syndicate
+  A criminal of  [corporate_faction_2]
+  A rogue scientist
+  A mercenary outfit of [mercenary_faction_4]
+  A retired military vet of [corporate_faction_2]
+  A faceless [corporate_faction_2] hypercorp agenda
+  A [corporate_faction_2] megacorp-sponsored scientist
+  A [corporate_faction_2] megacorp Loĝanto
+  A member of [corporate_faction_2]s social elite
+  A major [corporate_faction_2] celebrity
+  An [corporate_faction_2] active-duty officer
+  A [corporate_faction_2] intelligence agent
+  A [corporate_faction_2] elite military unit
+  A senior member of a relgious [corporate_faction_2] order
+  A splinter sect of a relgious [corporate_faction_2] order
+  A respected [corporate_faction_2] politicitian
+  A Tohaa dissidet
+  A rogue AI
+  A Combined Army [combined_army_faction_3] infiltrator
+
+antagonist_1_1
+  Aggressive
+  disgruntled
+  ambitiousl
+  manipulative
+  unpredictable
+  Obsessed
+  maniacial
+  tortured
+  cruel
+  psychotic
+  impulsive
+  covert
+  disillusioned
+  tratirous
+  machiavllian
+  intolerant
+  vindicitive
+  masochistic
+  ineffable
+  [antagonist_1_1] and [antagonist_1_1]
+
+corporate_faction_2
+  PanOceania
+  Yu Jing
+  Ariadna
+  Haqqislam
+  Nomads
+  Aleph
+  O-12^0.5
+  
+combined_army_faction_3
+  Morat
+  Shavasti Continuum
+  Sygma Trihedron
+  Sepsorized Human of [2-corporate-faction]^0.2
+
+mercenary_faction_4
+  Anaconda Mercenary TAG Sqadron^0.5
+  Dashat Comapny
+  Drzue Shock Teams
+  Foreign Comapny
+  Free Company of the Start
+  Ikari Company
+  Kaplan Teactical Services
+  SecLock Contigencies
+  Varangian Guard
+  Wardriverfs
+  The White Company
+
+scheme_5
+  Create a wormhole to a new system
+  Create a new wormhole to an established system
+  Instigate a war between two hypercorps
+  Discredit a megacorp, leading executive, or celebrity
+  Annihilate a place, a group, or a creature
+  Gather information to prove the existence of something or someone
+  Recover a technology from a rival
+  To protect a person or asset
+  To dominate a person or asset
+  To break a deadlock
+  Covert or counterespionage warfare
+  To institute a campaign of terror
+  Enact revenge for a wrongdoing (real or perceived)
+  Cover up a dirty secret
+  Clandestine experimentation on a group of people
+  The pursuit of knowledge
+  Recover an alien artefact: [vodootech]
+  Recover an alien entity or person: [alienperson]
+  Establish a new power
+  Domination of the entire Human Sphere! (or something equally as grandiose)
+
+motivation_5_1
+  Vengeance
+  Pure malice
+  Intense hatred
+  Envy
+  Orders from above
+  Corporate policy
+  The voices have spoken…
+  Forbidden knowledge [knowledge-objective]
+
+scheme_requirements_6
+  An intact Posthuman
+  Personality matrix of a Recreation
+  Bodies for experimentation, alive or not
+  Wormhole technology
+  Hidden knowledge: [knowledge_objective_10]
+  A particular location: [location_objective_9]
+  Corporate technology of [corporate_faction_2]
+  Access to a hidden area of Maya
+  Cube from a powerful figure
+  Kidnap of a powerful figure
+  Corporate secrets from [corporate_faction_2]
+  A weapon of mass destruction
+  Recovery of a lost spaceship
+  A piece of experimental tech
+  Access to ALEPHs secure central mainframe
+  A Silk repository
+  A rogue AI
+  A Combined Army artefact: [vodootech_11]
+  A living subject from the Combined Army: [combined_army_opponents_12]
+  A deadly biotech weapon
+  
+scheme_requirements_6_1
+  Acontecimento - Cidade Bomjesus
+  Acontecimento - [acontecimento_18]
+  Concilium - Edda
+  Concilium - [concilium_19]
+  Neoterra - San Pietro
+  Neoterra - [neoterra_20]
+  Paradiso - Rilaspur
+  Paradiso - [paradiso_21]
+  Shentang - Yián Xiáng
+  Shentang - [shentang_22]
+  Sol - Earth
+  Sol - Mars
+  Sol - [sol_23]
+  Svalarheima - Arkhanel City
+  Svalarheima - [svalarheima_24]
+  Varuna - Akuna Bay
+  Varuna - [varuna_25]
+  Yutang - Tiān Di Jing
+  Yutang - [yutang_26]
+  {Tunguska | Corregidor | Bakunin}
+
+alienperson
+
+location_objective_9
+knowledge_objective_10
+vodootech_11
+combined_army_opponents_12
+
+acontecimento_18
+concilium_19
+neoterra_20
+paradiso_21
+shentang_22
+sol_23
+svalarheima_24
+varuna_25
+yutang_26
+
+
+output
+  The scheme: [scheme_5] 
+  The motivation: [motivation_5_1]
+
+
+// Tips:
+//  - Highlight multiple lines and press Tab or Shift+Tab to indent and un-indent them all an once
+//  - You can change the URL of your generator by clicking the "settings" button in the top-right
+//  - Use this template if you want your generator to be vertically centered on the page:  perchance.org/centered-minimal#edit
+//  - Add background images, fonts, and other stuff with plugins: perchance.org/plugins
+//  - Here are some templates that you can use to create nice-looking generators without learning HTML and CSS:  perchance.org/templates
+//  - Use the "layout maker" plugin to create complex layouts without learning how to code:  perchance.org/layout-maker-plugin
+//  - Here are some generators you might like to import:  perchance.org/useful-generators
+//  - Read this page after reading the tutorial:  perchance.org/examples
+//  - There's a "wrap" button in the top-right if your lines are really long. If you add   $output=[this.joinItems(" ")]   as the first item in your list, then writing [yourListName] will magically output all of the items joined together, rather than a random item from the "yourListName" list.
+//  - Ask our friendly community members if you need help:  reddit.com/r/perchance
+// \( ﾟヮﾟ)/
+
+
+
+
