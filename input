@@ -80,24 +80,24 @@ scheme_5
   Create a new wormhole to an established system
   Instigate a war between two hypercorps
   Discredit a megacorp, leading executive, or celebrity
-  Annihilate a place, a group, or a creature
-  Gather information to prove the existence of something or someone
+  Annihilate {a place|a group|a creature}
+  Gather information to prove the existence of {something|someone}
   Recover a technology from a rival
-  To protect a person or asset
-  To dominate a person or asset
+  To protect {a person| an asset}
+  To dominate {a person| an asset}
   To break a deadlock
-  Covert or counterespionage warfare
+  {Covert|counterespionage} warfare
   To institute a campaign of terror
   Enact revenge for a wrongdoing (real or perceived)
   Cover up a dirty secret
   Clandestine experimentation on a group of people
   The pursuit of knowledge
-  Recover an alien artefact: [vodootech]
-  Recover an alien entity or person: [alienperson]
+  Recover an alien artefact: [ca_vodootech_11]
+  Recover an alien entity or person: [alternative_alien_opponents_12]
   Establish a new power
   Domination of the entire Human Sphere! (or something equally as grandiose)
 
-motivation_5_1
+scheme_motivation_5_1
   Vengeance
   Pure malice
   Intense hatred
@@ -113,7 +113,7 @@ scheme_requirements_6
   Bodies for experimentation, alive or not
   Wormhole technology
   Hidden knowledge: [knowledge_objective_10]
-  A particular location: [location_objective_9]
+  A particular artefact: [artefact_condition_9][artefact_descriptor_9]
   Corporate technology of [corporate_faction_2]
   Access to a hidden area of Maya
   Cube from a powerful figure
@@ -125,8 +125,8 @@ scheme_requirements_6
   Access to ALEPHs secure central mainframe
   A Silk repository
   A rogue AI
-  A Combined Army artefact: [vodootech_11]
-  A living subject from the Combined Army: [combined_army_opponents_12]
+  A Combined Army artefact: [ca_vodootech_11]
+  A living subject from the Combined Army: [ca_army_opponent_11]
   A deadly biotech weapon
   
 scheme_requirements_6_1
@@ -151,12 +151,270 @@ scheme_requirements_6_1
   Yutang - [yutang_26]
   {Tunguska | Corregidor | Bakunin}
 
-alienperson
+scenario_hooks_7
+  A close friend
+  A kidnapped relarive
+  An anonymous data communication
+  An executive order
+  A tabloid article or advert
+  A corporate executive of [corporate_faction_2]
+  A dying {man|woman|child|alien|AI}
+  A strange delivery
+  A fading celebrity
+  A member of royalty
+  Unwittingly caught in crossfire (terrorist act, gun battle, corporate skirmish, etc.)
+  Stumble on a strange event or dangerous location
+  A wealthy entrepreneur
+  A seemingly freak accident
+  A clerical error
+  A second antagonist: [antagonist_1] who is [antagonist_1_1]
+  A religious leader of [corporate_faction_2]
+  The local law enforcement agency
+  A member of an intelligence agency of [corporate_faction_2]
+  An O-12 operative
 
-location_objective_9
+scenario_draws_7_1
+  Delivers outrageous demands
+  Sends an invitation
+  Provides an intersystem one-way ticket
+  Delivers sensitive information ([knowledge_objective_10])
+  Offers a fortune
+  Asks for help
+  Attempts blackmail or extortion
+  Seeks protection
+  Has mistaken a characters identity
+  Offers a contract of employment
+  Places something in the characters safekeeping with their last breath: [artefact_condition_9][artefact_descriptor_9]
+  Is being blackmailed
+  Calls in a debt or favour
+  Sends a warning
+  Has information on someone who has been assumed as missing or dead
+  Delivers corporate orders for [corporate_faction_2]
+  Seeks revenge
+  Fears for their life
+  Has been framed for crime, treason, or espionage
+  Offers details on another antagonist: [antagonist_1] who is [antagonist_1_1]
+
+mission_character_8
+  Explore
+  Reciver
+  Attack
+  Destroy
+  Protect
+  Deliver
+  Capture
+  Find or locate
+  Negotiate
+  Reconnoutre
+  Divert
+  Distract
+  Expose
+  Hide
+  Understand
+  Prove
+  Disprove
+  Steal
+  Insert
+  Rescue
+
+mission_military_8
+  Pathfinder
+  Invade
+  Liberate
+  Infiltrate
+  Defend
+  Ambush
+  Evacuate
+  Rescue
+  Attack
+  Seek and Destroy
+  Scout and recon
+  Support
+  Patrol
+  Take and hold
+  Breakthrough
+  Pre-emptive strike
+  Hold the line
+  Rearguard
+  Resupply
+  Field Test
+
+mission_objective_8_1
+  An ally ([person_objective_10])
+  An enemey ([antagonist_1] who is [antagonist_1_1])
+  Identity of a person ([antagonist_1] who is [antagonist_1_1])
+  A combined army opponent: [ca_army_opponent_11]
+  A combined army opponent: [ca_army_opponent_11]
+  {Documents|Secrets}: [knowledge_objective_10]
+  {Documents|Secrets}: [knowledge_objective_10]
+  An artefact: [artefact_condition_9][artefact_descriptor_9]
+  An artefact: [artefact_condition_9][artefact_descriptor_9]
+  A physical location
+  A physical location
+  A map or coordinates to [scheme_requirements_6_1]
+  A map or coordinates to [scheme_requirements_6_1]
+  A Combined Army specimen: [ca_army_opponent_11]
+  A Combined Army specimen: [ca_army_opponent_11]
+  The current antagonist
+  A military unit
+  A secret organisation
+  A rival faction of [corporate_faction_2]
+  A religious faction of [corporate_faction_2]
+
+artefact_descriptor_9
+  Pre-quantronic tech
+  Rare ingredient
+  Alien tech
+  Religious Icon
+  {physical|quantronic} key
+  Experimental tech
+  Priceless asset
+  Evidence
+  Photographs
+  Blueprints
+  Weapon
+  Heirloom
+  Unrecorded life-form
+  {Rare ore|resource}
+  Drug
+  Priceless artwork
+  Physical tome or book
+  Data-slate
+  Cube
+  Combined Army VoodooTech: [ca_vodootech_11]
+
+artefact_condition_9
+  Obsolete
+  Sentient
+  Cursed
+  Fragile
+  Unstable
+  Mutable
+  Radioactive
+  Blessed
+  Bioorganic
+  Locked
+  Frozen (iced)
+  Floating in a vacuum
+  Lucky
+  Toxic
+  Broken
+  Buried
+  Powerless
+  Secret
+  Sentient and Rogue
+  Appears to be [artefact_condition_9] but is [artefact_condition_9]
+
 knowledge_objective_10
-vodootech_11
-combined_army_opponents_12
+  Schematics {weapon|base|ship|plane|vehicle}
+  {Technological|Scientific} discovery
+  Cure to strange illnes
+  A weakness
+  An Ancient secret
+  Escape route
+  Conspiracy
+  Chemical formula
+  Criminal activity
+  Covert operations data
+  Assets
+  An artefact: [artefact_condition_9] [artefact_descriptor_9]
+  A [corporate_faction_2] secret
+  The truth to a cover-up
+  What is at the location
+  What happened at the location
+  A traitor’s identity
+  Historical data
+  Cartographical data
+  Combined Army activity
+
+person_objective_10
+  Civilian
+  Law enforcement
+  Soldier
+  Pilot
+  Insane genius
+  Fugitive
+  Criminal
+  Intelligence Operative
+  {Defector|Informant}
+  Corporate executive
+  Member of a clergy of [corporate_faction_2]
+  Scientist
+  [corporate_faction_2] special forces operative
+  [corporate_faction_2] politician
+  Maya celebrity
+  Archealologist
+  {Heir|Heiress]}
+  Blackmarketeer
+  Wounded [person_objective_10]
+  sepsitorised [person_objective_10]
+ca_vodootech_11
+  An intact Sphinx TAG
+  Gestating SpawnEmbryo
+  Gestating SpawnEmbryo
+  Data from a Shaviish
+  A Tohaa Cube (Sygmaa Trihedron)
+  A fragment of the Ur Probe
+  A fragment from a specific cosmolite
+  A Combined Army comlog
+  An intact slave drone
+  An intact ĺmetron
+  A Combined Army hacking device
+  Óbsidon Medchanoid nano-forge
+  A Sepsitorised humans Cube
+  An Umbral Legates shock sword
+  A Fraacta Jump Pack
+  A perfectly preserved organ of a [ca_army_opponent_11]
+  Combined Army Weapon of a [ca_army_opponent_11]
+  Combined Army Weapon of a [ca_army_opponent_11]
+  An EI Avatars optical disruptor
+  An EI Avatars power core
+
+ca_army_opponent_11
+  [alternative_alien_opponents_12]
+  [alternative_alien_opponents_12]
+  Avatar (p. 462)
+  Charontid (p. 463)
+  Skiávoros (p. 463)
+  Morat (p. 465)
+  Morat—Dāturazi Witch-Soldier (p. 467)
+  Morat—Raicho Pilot (p. 467)
+  Morat—Rasyat (p. 469)
+  Sepsitorised human of [corporate_faction_2]
+  Shasvastii (p. 471)
+  Shasvastii—Seed Soldier (p. 471)
+  Shasvastii—Speculo Killer (p. 473)
+  Shasvastii- Sphinx (p. 475)
+  Sygmaa Trihedron—Fraacta Drop Unit (p. 477)
+  Sygmaa Trihedron—Maakrep T
+  Umbral Legate (p. 479)
+  Umbral Legate (p. 479)
+  Unidron Batroid (p. 479)
+
+alternative_alien_opponents_12
+  Antipode Warrior (p. 462)
+  Ariadnan Brown Bear (p. 480)
+  Bourakian Sea-Serpent (p. 480)
+  Chaksa (p. 462)
+  Gāyatrī Mohau (p. 481)
+  Jorōgumo (p. 483)
+  Kragodon (p. 487)
+  Neoterran Emerald Dragon (p. 489)
+  Shrike Tardigrade (p. 491)
+  Titan Jellyfish (p. 493)
+  Tohaa Diplomat (p. 477)
+  Tohaa Kumotail Bioengineer (p. 478)
+  Tohaa Makaul Trooper (p. 479)
+  Tohaa Diplomat (p. 477)
+  Tohaa Kumotail Bioengineer (p. 478)
+  Tohaa Makaul Trooper (p. 479)
+  Trollhättan Troll (Ip. 495)
+  Varunan Water-Snake (p. 495)
+
+obstacles_13
+  On a short timescale
+plottwists_13
+
 
 acontecimento_18
 concilium_19
