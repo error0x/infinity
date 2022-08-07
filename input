@@ -3,7 +3,10 @@
 
 title
   Infinity Mission Generator
-antagonist_1
+
+//ELEMENT ONE: THE ANTAGONIST
+
+antagonist_1_1
   An experimental Posthuman
   A crime syndicate
   A criminal of  [corporate_faction_2]
@@ -25,7 +28,7 @@ antagonist_1
   A rogue AI
   A Combined Army [combined_army_faction_3] infiltrator
 
-antagonist_1_1
+antagonist_1_2
   Aggressive
   disgruntled
   ambitiousl
@@ -45,7 +48,7 @@ antagonist_1_1
   vindicitive
   masochistic
   ineffable
-  [antagonist_1_1] and [antagonist_1_1]
+  [antagonist_1_2] and [antagonist_1_2]
 
 corporate_faction_2
   PanOceania
@@ -75,7 +78,9 @@ mercenary_faction_4
   Wardriverfs
   The White Company
 
-scheme_5
+//ELEMENT TWO: THE SCHEME
+
+scheme_5_1
   Create a wormhole to a new system
   Create a new wormhole to an established system
   Instigate a war between two hypercorps
@@ -97,7 +102,7 @@ scheme_5
   Establish a new power
   Domination of the entire Human Sphere! (or something equally as grandiose)
 
-scheme_motivation_5_1
+scheme_motivation_5_2
   Vengeance
   Pure malice
   Intense hatred
@@ -107,7 +112,7 @@ scheme_motivation_5_1
   The voices have spoken…
   Forbidden knowledge [knowledge-objective]
 
-scheme_requirements_6
+scheme_requirements_6_1
   An intact Posthuman
   Personality matrix of a Recreation
   Bodies for experimentation, alive or not
@@ -129,7 +134,7 @@ scheme_requirements_6
   A living subject from the Combined Army: [ca_army_opponent_11]
   A deadly biotech weapon
   
-scheme_requirements_6_1
+scheme_requirements_6_2
   Acontecimento - Cidade Bomjesus
   Acontecimento - [acontecimento_18]
   Concilium - Edda
@@ -151,7 +156,8 @@ scheme_requirements_6_1
   Yutang - [yutang_26]
   {Tunguska | Corregidor | Bakunin}
 
-scenario_hooks_7
+  //ELEMENT THREE: SCENARIO HOOKS
+scenario_hooks_7_1
   A close friend
   A kidnapped relarive
   An anonymous data communication
@@ -167,13 +173,13 @@ scenario_hooks_7
   A wealthy entrepreneur
   A seemingly freak accident
   A clerical error
-  A second antagonist: [antagonist_1] who is [antagonist_1_1]
+  A second antagonist: [antagonist_1_1] who is [antagonist_1_2]
   A religious leader of [corporate_faction_2]
   The local law enforcement agency
   A member of an intelligence agency of [corporate_faction_2]
   An O-12 operative
 
-scenario_draws_7_1
+scenario_draws_7_2 
   Delivers outrageous demands
   Sends an invitation
   Provides an intersystem one-way ticket
@@ -193,9 +199,9 @@ scenario_draws_7_1
   Seeks revenge
   Fears for their life
   Has been framed for crime, treason, or espionage
-  Offers details on another antagonist: [antagonist_1] who is [antagonist_1_1]
+  Offers details on another antagonist: [antagonist_1_1] who is [antagonist_1_2]
 
-mission_character_8
+mission_character_8_1
   Explore
   Reciver
   Attack
@@ -217,7 +223,7 @@ mission_character_8
   Insert
   Rescue
 
-mission_military_8
+mission_military_8_2
   Pathfinder
   Invade
   Liberate
@@ -239,10 +245,10 @@ mission_military_8
   Resupply
   Field Test
 
-mission_objective_8_1
+mission_objective_8_3
   An ally ([person_objective_10])
-  An enemey ([antagonist_1] who is [antagonist_1_1])
-  Identity of a person ([antagonist_1] who is [antagonist_1_1])
+  An enemy ([antagonist_1_1] who is [antagonist_1_2])
+  Identity of a person ([antagonist_1_1] who is [antagonist_1_2])
   A combined army opponent: [ca_army_opponent_11]
   A combined army opponent: [ca_army_opponent_11]
   {Documents|Secrets}: [knowledge_objective_10]
@@ -261,7 +267,7 @@ mission_objective_8_1
   A rival faction of [corporate_faction_2]
   A religious faction of [corporate_faction_2]
 
-artefact_descriptor_9
+artefact_descriptor_9_1
   Pre-quantronic tech
   Rare ingredient
   Alien tech
@@ -283,7 +289,7 @@ artefact_descriptor_9
   Cube
   Combined Army VoodooTech: [ca_vodootech_11]
 
-artefact_condition_9
+artefact_condition_9_2
   Obsolete
   Sentient
   Cursed
@@ -305,7 +311,7 @@ artefact_condition_9
   Sentient and Rogue
   Appears to be [artefact_condition_9] but is [artefact_condition_9]
 
-knowledge_objective_10
+knowledge_objective_10_1
   Schematics {weapon|base|ship|plane|vehicle}
   {Technological|Scientific} discovery
   Cure to strange illnes
@@ -327,7 +333,7 @@ knowledge_objective_10
   Cartographical data
   Combined Army activity
 
-person_objective_10
+person_objective_10_2
   Civilian
   Law enforcement
   Soldier
@@ -370,8 +376,8 @@ ca_vodootech_11
   An EI Avatars optical disruptor
   An EI Avatars power core
 
-ca_army_opponent_11
-  [alternative_alien_opponents_12]
+ca_army_opponent_11_1
+  {[alternative_alien_opponents_12] | [ca_army_opponent_11_1]}
   [alternative_alien_opponents_12]
   Avatar (p. 462)
   Charontid (p. 463)
@@ -390,6 +396,26 @@ ca_army_opponent_11
   Umbral Legate (p. 479)
   Umbral Legate (p. 479)
   Unidron Batroid (p. 479)
+
+voodootech_11_2
+  An intaxc Sphinx TAG
+  Gestating SpawnEmbryo
+  Data from a Shaviish
+  A Tohaa Cube (Sygmaa Trihedron)
+  A fragment of the Ur Probe
+  A fragment from a specific cosmolite
+  A Combined Army comlog
+  An intact slave drone
+  An intact ĺmetron
+  A Combined Army hacking device
+  Óbsidon Medchanoid nano-forge
+  A Sepsitorised humans Cube
+  An Umbral Legates shock sword
+  A Fraacta Jump Pack
+  A perfectly preserved organ of a [ca_army_opponent_11_1]
+  Combined Army weapon of a [ca_army_opponent_11_1]
+  An EI Avatars optical disruptor
+  An EI Avatars power core
 
 alternative_alien_opponents_12
   Antipode Warrior (p. 462)
@@ -411,22 +437,326 @@ alternative_alien_opponents_12
   Trollhättan Troll (Ip. 495)
   Varunan Water-Snake (p. 495)
 
-obstacles_13
+  //ELEMENT FOUR: TRIALS AND TRIBULATIONS
+obstacles_13_1
   On a short timescale
-plottwists_13
+  Considered an unreachable destination (requires wormhole technology or is beyond current human influence)
+  Numerous distractions along the way (side missions, rival factions, opportunities)
+  Key knowledge is required (held in a location or by a person— usually guarded)
+  Physically or environmentally challenging (zero-g, rad zone, desert, corrupt location, acid rain)
+  Another corporate power or faction is also   involved (GM’s choice of Table 2, 3, or 4 to  determine) //TODO
+  It is guarded by a Nemesis or Elite adversary
+  They must carry a hindrance: {fragile asset | incompetent person | dangerous prisoner}
+  Battered by the elements: {volcanic activity | sand |snow storms |earthquakes |tsunamis}
+  Must enter a contested warzone
+  An O-12 faction interferes “for the good of humanity” : [scenario_hooks_7_1] - [scenario_draws_7_2]
+  Defective assets: {rotten| stolen| corrupted| faulty}
+  Extortionate cost (in something the characters value)
+  Lesser of two evils (working with an   uncomfortable ally)
+  Civil unrest (riots, terrorists)
+  Extortion and bribery (a group member is bribed or held to ransom)
+  Sold misinformation
+  Problems with the authorities (arrest, detention, passport control)
+  Strange malady that requires the antagonists plot fulfilment to cur
+  Ambushed!
 
+plottwists_13_2
+  They must make a great personal sacrifice (one or more group members)
+  They are the experiment (a group or faction is testing their abilities)
+  Led into a trap (they are the antagonists missing ingredient)
+  Into the jaws of death (nobody is expected to leave alive)
+  The antagonist is part of the group (if played right,maybe even a character)
+  Intelligence leads them to believe there is only one to contend with (they were wrong!)
+  Familial connections (antagonist has family ties to, or is known well by a character)
+  Snake in the grass (a traitor working for an independent faction: [mercenary_faction_4])
+  High body count (the Pyrrhic victory)
+  Damned if we do… (letting the antagonist escape will save countless lives)
+  A person or asset that is a requirement of the mission is also exactly what the antagonist needs
+  To understand villainy, you must become the villain (they must do bad things to achieve their goal)
+  The antagonist is a patsy for the true antagonist: [antagonist_1_1] who is [antagonist_1_2]
+  The antagonist is committing terrible crimes in the hope of preventing a greater evil
+  Fulfilment before their eyes (the group arrives too late or the event unfolds around them)
+  Cut off and left adrift (the group’s employer falls strangely silent and no longer provides support)
+  A key character of the plot is killed, only to return alive later (can be keyed to Twist They're the experiment or Traitor in their own faction)
+  The characters are working for the real villain, their antagonist is trying to stop them
+  Misdirection (the plot is a complete cover for the real scheme—roll again for the second layer)
+  Escalation: [plottwists_13_2] and [plottwists_13_2]
+
+// ELEMENT FIVE: LOCATIONS
+
+location_choice_14_1
+  Building
+  Building
+  Building
+  Building
+  Building
+  Building
+  Rural
+  Rural
+  Rural
+  Unconventional
+  Unconventional
+  Unconventional
+  Unconventional
+  Unconventional
+  Sea/Lake
+  Sea/Lake
+  Sea/Lake
+  Military
+  Military
+  Combined Army
+  Combined Army
+
+location_atmosphere_14_2
+  Derelict
+  Ruined
+  Peaceful
+  Abandoned
+  Windswept
+  Dreadful
+  Overgrown
+  Submerged
+  Ancient
+  Volcanic
+  Perched
+  Mountaintop
+  Clifftop
+  Flooded
+  Underground
+  Remote
+  Sinister
+  Dripping
+  Frozen
+  Too quiet
+
+building_type_15_1
+  Suburban complex
+  High-rise apartment block
+  Monastery
+  Factory
+  Laboratory
+  Prison
+  Chemical plant
+  Casino
+  Palace
+  Library
+  Hospital
+  University
+  Church
+  Mansion
+  Museum
+  Tube station
+  Hotel
+  Government building
+  Airport
+  Mall complex
+
+unconvetional_location_15_2
+  Castle
+  Temple
+  Monolith
+  Church
+  Mansion
+  Cemetery
+  Cave system
+  Tomb
+  Archaeological excavation
+  Ruins
+  Mine
+  Monastery
+  Museum
+  Swamp
+  Outpost
+  Battlefield
+  Caravanserai
+  Orbital station
+  Asteroid colony
+  Secure area of Maya
+
+rural_location_16_1
+  Old battlefield
+  Cavern
+  Plantation
+  Rad zone
+  Abandoned settlement
+  River
+  Desert
+  Glacier
+  Swamp
+  Coastline
+  Canyon
+  Lake
+  Forest/jungle
+  Mine
+  Farm
+  Fields
+  Hills
+  Mountains
+  Delta
+  Snowfields
+
+sea_or_lake_location_16_2
+  Shipyard
+  Cargo ship
+  Wardship
+  Underwater ruins
+  Deep sea ridge
+  Submerged wreck
+  Underwater base
+  Lost island
+  Floating base
+  Ocean Liner
+  Oen sea
+  Costal water
+  Coast
+  Port
+  Underwater caverns
+  Beached wreck
+  Deep sea trench
+  Island chain
+  Sinking island
+  Fleet
+
+military_sites_17_1
+  Headquarters building
+  Military Base
+  Battlefield
+  Supply dump
+  [Harbour area | temporary camp]
+  Path of advance
+  Convoy
+  Frontlines
+  Bunker system
+  Vehicle construction facility
+  Military spaceport
+  Arms factory
+  Weapon testing laboratory
+  Comms installation
+  Launch installation
+  Military network hub
+  Naval base
+  TAG hangar
+  Orbital satellite
+  Orbital facility
+
+combined_army_site_17_2
+  NiemandsZone cosmolite
+  Zulu Point - First Finding
+  Behdeti
+  Fuyan caverns
+  Fuyan surface
+  Ishmailiyya
+  Ravensbrücke
+  Silvania
+  Xiongxiang
+  Biguan
+  Kaphiri Ruins (above ground)
+  Kahpiri Harbour (underwater)
+  Taittiriya
+  Zhongchong
+  Aritya
+  Aritya subways
+  Purgatorio Asharii Base
+  Purgatorio Asharii Base
+  Dante
 
 acontecimento_18
+  Adarsana (p. 226)
+  Bhai Gurdas (p. 226)
+  Plaska Prasravana (p. 226)
+  Magalhães (p. 228)
+  Galvão (p. 227)
+  Orujo (p. 227)
+  Sierpes Island (p. 228)
+  Terra de Gelo (p. 229)
+  Orbital (p. 229)
+
 concilium_19
+  The Blue Wood (p. 239)
+  Lorena (p. 240)
+  Huaquaio (p. 240)
+  Choola (p. 241)
+  Baronha (p. 242)
+  Utgard (p. 242)
+  Asaheim (p. 243)
+  Surt (p. 243)
+
 neoterra_20
+  Clausewitz (p. 260)
+  Rommel (p. 260)
+  Von Moltke (p. 260)
+  Newton City (p. 261)  
+  San Giovanni (p. 261)
+  Turoqua (p. 262)
+  Amaravati (p. 263)
+  Orbital (p. 263)
+
 paradiso_21
+  ZuluPoint (p. 266)
+  Fuyan (p. 267)
+  Ravensbrücke (p. 268)
+  Xiongxiang (p. 268)
+  Uqbar (p. 268)
+  Damburg (p. 268)
+  Neiting (p. 270)
+  Taittiriya (p. 270)
+  Aritya (p. 271)
+
 shentang_22
+  Shambhala (p. 280)
+  Sambor Duk (p. 280)
+  Koryō (p. 281)
+  Paekche (p. 281)
+  Kume (p. 281)
+  Kofuku (p. 281)
+  Motobushimi (p. 281)
+  Sakuramachi (p. 281)
+  Orbital (p. 286)
+  
 sol_23
+  Canberra—Earth
+  Beijing—Earth
+  Washington DC—Earth
+  Ying Huo—Mars
+  Marsport—Mars
+  Bradbury—Mars
+  Jupiter Orbital
+  Saturn Orbital
+  Ceres Belt
+  
 svalarheima_24
+  Vest Festning (p. 295)
+  Kunlun (p. 296)
+  Quanxue (p. 296)
+  Arendal (p. 296)
+  Blårand (p. 297)
+  Odinheim (p. 297)
+  Skovorodino (p. 297)
+  Nyåkfjord Outpost (p. 298)
+  Orbital (p. 298)
+
 varuna_25
+  Neo Canberra (p. 302)
+  Planctae Sub-Archipelago (p. 303)
+  Damak (p. 303)
+  Pulau Utara (p. 304)
+  Anahena (p. 304)
+  Koimala (p. 304)
+  Halidon Bridge (p. 305)
+  Akuna Bay (p. 302)
+  Orbital (p. 305)
+
 yutang_26
-
-
+  Jiä Yan (p. 283)
+  Shencang (p. 283)
+  Cheng Tû (p. 283)
+  Kān Zhu (p. 285)
+  Miào Chán (p. 285)
+  Hăimen (p. 285)
+  Tiá Heng Island (p. 285)
+  Orbital (p. 286)
+  Zı̌jinchéng (p. 284)
+  
 output
   The scheme: [scheme_5] 
   The motivation: [motivation_5_1]
