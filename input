@@ -63,7 +63,7 @@ combined_army_faction_3
   Morat
   Shavasti Continuum
   Sygma Trihedron
-  Sepsorized Human of [2-corporate-faction]^0.2
+  Sepsorized Human of [corporate_faction_2]^0.2
 
 mercenary_faction_4
   Anaconda Mercenary TAG Sqadron^0.5
@@ -97,7 +97,7 @@ scheme_5_1
   Cover up a dirty secret
   Clandestine experimentation on a group of people
   The pursuit of knowledge
-  Recover an alien artefact: [ca_vodootech_11]
+  Recover an alien artefact: [ca_voodootech_11_2]
   Recover an alien entity or person: [alternative_alien_opponents_12]
   Establish a new power
   Domination of the entire Human Sphere! (or something equally as grandiose)
@@ -117,11 +117,11 @@ scheme_requirements_6_1
   Personality matrix of a Recreation
   Bodies for experimentation, alive or not
   Wormhole technology
-  Hidden knowledge: [knowledge_objective_10]
-  A particular artefact: [artefact_condition_9][artefact_descriptor_9]
+  Hidden knowledge: [knowledge_objective_10_1]
+  A particular artefact: [artefact_condition_9_2][artefact_descriptor_9_1]
   Corporate technology of [corporate_faction_2]
   Access to a hidden area of Maya
-  Cube from a powerful figure
+  the Cube from a powerful figure
   Kidnap of a powerful figure
   Corporate secrets from [corporate_faction_2]
   A weapon of mass destruction
@@ -130,7 +130,7 @@ scheme_requirements_6_1
   Access to ALEPHs secure central mainframe
   A Silk repository
   A rogue AI
-  A Combined Army artefact: [ca_vodootech_11]
+  A Combined Army artefact: [ca_voodootech_11_2]
   A living subject from the Combined Army: [ca_army_opponent_11]
   A deadly biotech weapon
   
@@ -180,26 +180,26 @@ scenario_hooks_7_1
   An O-12 operative
 
 scenario_draws_7_2 
-  Delivers outrageous demands
-  Sends an invitation
-  Provides an intersystem one-way ticket
-  Delivers sensitive information ([knowledge_objective_10])
-  Offers a fortune
-  Asks for help
-  Attempts blackmail or extortion
-  Seeks protection
-  Has mistaken a characters identity
-  Offers a contract of employment
-  Places something in the characters safekeeping with their last breath: [artefact_condition_9][artefact_descriptor_9]
-  Is being blackmailed
-  Calls in a debt or favour
-  Sends a warning
-  Has information on someone who has been assumed as missing or dead
-  Delivers corporate orders for [corporate_faction_2]
-  Seeks revenge
-  Fears for their life
-  Has been framed for crime, treason, or espionage
-  Offers details on another antagonist: [antagonist_1_1] who is [antagonist_1_2]
+  delivers outrageous demands
+  sends an invitation
+  provides an intersystem one-way ticket
+  delivers sensitive information ([knowledge_objective_10_1])
+  offers a fortune
+  asks for help
+  attempts blackmail or extortion
+  seeks protection
+  has mistaken a characters identity
+  offers a contract of employment
+  places something in the characters safekeeping with their last breath: [artefact_condition_9_2][artefact_descriptor_9_1]
+  is being blackmailed
+  calls in a debt or favour
+  sends a warning
+  has information on someone who has been assumed as missing or dead
+  delivers corporate orders for [corporate_faction_2]
+  seeks revenge
+  fears for their life
+  has been framed for crime, treason, or espionage
+  offers details on another antagonist: [antagonist_1_1] who is [antagonist_1_2]
 
 mission_character_8_1
   Explore
@@ -246,26 +246,26 @@ mission_military_8_2
   Field Test
 
 mission_objective_8_3
-  An ally ([person_objective_10])
-  An enemy ([antagonist_1_1] who is [antagonist_1_2])
-  Identity of a person ([antagonist_1_1] who is [antagonist_1_2])
-  A combined army opponent: [ca_army_opponent_11]
-  A combined army opponent: [ca_army_opponent_11]
-  {Documents|Secrets}: [knowledge_objective_10]
-  {Documents|Secrets}: [knowledge_objective_10]
-  An artefact: [artefact_condition_9][artefact_descriptor_9]
-  An artefact: [artefact_condition_9][artefact_descriptor_9]
-  A physical location
-  A physical location
-  A map or coordinates to [scheme_requirements_6_1]
-  A map or coordinates to [scheme_requirements_6_1]
-  A Combined Army specimen: [ca_army_opponent_11]
-  A Combined Army specimen: [ca_army_opponent_11]
-  The current antagonist
-  A military unit
-  A secret organisation
-  A rival faction of [corporate_faction_2]
-  A religious faction of [corporate_faction_2]
+  an ally ([person_objective_10_2])
+  an enemy ([antagonist_1_1] who is [antagonist_1_2])
+  identity of a person ([antagonist_1_1] who is [antagonist_1_2])
+  a combined army opponent: [ca_army_opponent_11_1]
+  a combined army opponent: [ca_army_opponent_11_1]
+  {Documents|Secrets}: [knowledge_objective_10_1]
+  {Documents|Secrets}: [knowledge_objective_10_1]
+  an artefact: [artefact_condition_9_2][artefact_descriptor_9_1]
+  an artefact: [artefact_condition_9_2][artefact_descriptor_9_1]
+  a physical location
+  a physical location
+  a map or coordinates to [scheme_requirements_6_2]
+  a map or coordinates to [scheme_requirements_6_2]
+  a Combined Army specimen: [ca_army_opponent_11_1]
+  a Combined Army specimen: [ca_army_opponent_11_1]
+  the current antagonist
+  a military unit
+  a secret organisation
+  a rival faction of [corporate_faction_2]
+  a religious faction of [corporate_faction_2]
 
 artefact_descriptor_9_1
   Pre-quantronic tech
@@ -287,7 +287,7 @@ artefact_descriptor_9_1
   Physical tome or book
   Data-slate
   Cube
-  Combined Army VoodooTech: [ca_vodootech_11]
+  Combined Army VoodooTech: [ca_voodootech_11_2]
 
 artefact_condition_9_2
   Obsolete
@@ -309,7 +309,7 @@ artefact_condition_9_2
   Powerless
   Secret
   Sentient and Rogue
-  Appears to be [artefact_condition_9] but is [artefact_condition_9]
+  Appears to be [artefact_condition_9_2] but is [artefact_condition_9_2]
 
 knowledge_objective_10_1
   Schematics {weapon|base|ship|plane|vehicle}
@@ -354,27 +354,6 @@ person_objective_10_2
   Blackmarketeer
   Wounded [person_objective_10]
   sepsitorised [person_objective_10]
-ca_vodootech_11
-  An intact Sphinx TAG
-  Gestating SpawnEmbryo
-  Gestating SpawnEmbryo
-  Data from a Shaviish
-  A Tohaa Cube (Sygmaa Trihedron)
-  A fragment of the Ur Probe
-  A fragment from a specific cosmolite
-  A Combined Army comlog
-  An intact slave drone
-  An intact ĺmetron
-  A Combined Army hacking device
-  Óbsidon Medchanoid nano-forge
-  A Sepsitorised humans Cube
-  An Umbral Legates shock sword
-  A Fraacta Jump Pack
-  A perfectly preserved organ of a [ca_army_opponent_11]
-  Combined Army Weapon of a [ca_army_opponent_11]
-  Combined Army Weapon of a [ca_army_opponent_11]
-  An EI Avatars optical disruptor
-  An EI Avatars power core
 
 ca_army_opponent_11_1
   {[alternative_alien_opponents_12] | [ca_army_opponent_11_1]}
@@ -397,9 +376,9 @@ ca_army_opponent_11_1
   Umbral Legate (p. 479)
   Unidron Batroid (p. 479)
 
-voodootech_11_2
+ca_voodootech_11_2
   An intaxc Sphinx TAG
-  Gestating SpawnEmbryo
+  Gestating SpawnEmbryo^0.1 
   Data from a Shaviish
   A Tohaa Cube (Sygmaa Trihedron)
   A fragment of the Ur Probe
@@ -413,7 +392,7 @@ voodootech_11_2
   An Umbral Legates shock sword
   A Fraacta Jump Pack
   A perfectly preserved organ of a [ca_army_opponent_11_1]
-  Combined Army weapon of a [ca_army_opponent_11_1]
+  Combined Army weapon of a [ca_army_opponent_11_1]^0.1
   An EI Avatars optical disruptor
   An EI Avatars power core
 
@@ -485,27 +464,26 @@ plottwists_13_2
 // ELEMENT FIVE: LOCATIONS
 
 location_choice_14_1
-  Building
-  Building
-  Building
-  Building
-  Building
-  Building
-  Rural
-  Rural
-  Rural
-  Unconventional
-  Unconventional
-  Unconventional
-  Unconventional
-  Unconventional
-  Sea/Lake
-  Sea/Lake
-  Sea/Lake
-  Military
-  Military
-  Combined Army
-  Combined Army
+  [building_type_15_1]
+  [building_type_15_1]
+  [building_type_15_1]
+  [building_type_15_1]
+  [building_type_15_1]
+  [building_type_15_1]
+  [rural_location_16_1]
+  [rural_location_16_1]
+  [rural_location_16_1]
+  [unconvetional_location_15_2]
+  [unconvetional_location_15_2]
+  [unconvetional_location_15_2]
+  [unconvetional_location_15_2]
+  [sea_or_lake_location_16_2]
+  [sea_or_lake_location_16_2]
+  [sea_or_lake_location_16_2]
+  [military_sites_17_1]
+  [military_sites_17_1]
+  [combined_army_site_17_2]
+  [combined_army_site_17_2]
 
 location_atmosphere_14_2
   Derelict
@@ -620,9 +598,9 @@ sea_or_lake_location_16_2
 military_sites_17_1
   Headquarters building
   Military Base
-  Battlefield
+  active Battlefield
   Supply dump
-  [Harbour area | temporary camp]
+  {Harbour area | temporary camp}
   Path of advance
   Convoy
   Frontlines
@@ -640,25 +618,25 @@ military_sites_17_1
   Orbital facility
 
 combined_army_site_17_2
-  NiemandsZone cosmolite
-  Zulu Point - First Finding
-  Behdeti
-  Fuyan caverns
-  Fuyan surface
-  Ishmailiyya
-  Ravensbrücke
-  Silvania
-  Xiongxiang
-  Biguan
-  Kaphiri Ruins (above ground)
-  Kahpiri Harbour (underwater)
-  Taittiriya
-  Zhongchong
-  Aritya
-  Aritya subways
-  Purgatorio Asharii Base
-  Purgatorio Asharii Base
-  Dante
+  NiemandsZone cosmolite (CA site)
+  Zulu Point - First Finding (CA site)
+  Behdeti (CA site)
+  Fuyan caverns (CA site)
+  Fuyan surface (CA site)
+  Ishmailiyya (CA site)
+  Ravensbrücke (CA site)
+  Silvania (CA site)
+  Xiongxiang (CA site)
+  Biguan (CA site)
+  Kaphiri Ruins (above ground) (CA site)
+  Kahpiri Harbour (underwater) (CA site)
+  Taittiriya (CA site)
+  Zhongchong (CA site)
+  Aritya (CA site)
+  Aritya subways (CA site)
+  Purgatorio Asharii Base (CA site)
+  Purgatorio Asharii Base (CA site)
+  Dante (CA site)
 
 acontecimento_18
   Adarsana (p. 226)
